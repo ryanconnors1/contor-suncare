@@ -7,7 +7,7 @@ export default function Footer() {
       id="footer"
       className="mt-24 w-full bg-black text-white py-10 px-6"
     >
-      <div className="max-w-4xl mx-auto flex flex-col md:flex-row justify-center items-start gap-x-64 gap-y-8 text-center md:text-left">
+      <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center md:items-start justify-center gap-8 text-center md:text-left">
         {/* Socials Section */}
         <div className="flex flex-col items-center md:items-start space-y-2">
           <h4 className="text-lg font-semibold">Follow Us</h4>
