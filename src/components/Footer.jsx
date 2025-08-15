@@ -12,40 +12,40 @@ export default function Footer() {
         <div className="flex flex-col items-center md:items-start space-y-2">
           <h4 className="text-lg font-semibold">Follow Us</h4>
           <a
-            href="https://instagram.com/contorsuncareco"
+            href="https://instagram.com/getcontorsuncare"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 hover:text-gray-400 transition"
           >
             <FaInstagram className="text-2xl" />
-            @contorsuncareco
+            @getcontorsuncare
           </a>
           <a
-            href="https://tiktok.com/@contorsuncareco"
+            href="https://tiktok.com/@getcontorsuncare"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 hover:text-gray-400 transition"
           >
             <FaTiktok className="text-2xl" />
-            @contorsuncareco
+            @getcontorsuncare
           </a>
           <a
-            href="https://twitter.com/contorsuncareco"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 hover:text-gray-400 transition"
-          >
-            <FaTwitter className="text-2xl" />
-            @contorsuncareco
-          </a>
-          <a
-            href="https://facebook.com/contorsuncareco"
+            href="https://facebook.com/getcontorsuncare"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 hover:text-gray-400 transition"
           >
             <FaFacebook className="text-2xl" />
-            @contorsuncareco
+            @getcontorsuncare
+          </a>
+          <a
+            href="https://twitter.com/contorsuncare"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 hover:text-gray-400 transition"
+          >
+            <FaTwitter className="text-2xl" />
+            @contorsuncare
           </a>
         </div>
 

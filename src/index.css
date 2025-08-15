@@ -7,5 +7,9 @@ html {
 @layer utilities {
   .glow-custom {
     filter: drop-shadow(0 0 10px rgba(11, 29, 45, 0.8)) drop-shadow(0 0 20px rgba(11, 29, 45, 0.6));
+  /* Standard section gap above each block */
+  .section-pad { @apply mt-20 md:mt-24; }
+  /* (Optional) a slightly tighter variant if needed somewhere */
+  .section-pad-tight { @apply mt-14 md:mt-16; }
   }
 }
