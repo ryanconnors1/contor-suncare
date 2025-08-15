@@ -5,7 +5,7 @@ export default function FAQ() {
     <section className="mt-24 w-full max-w-4xl px-6 text-left">
       <h3 className="text-2xl font-bold mb-10 text-center">Frequently Asked Questions</h3>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
         <div>
           <h4 className="font-semibold mb-1">Is it greasy or sticky?</h4>
           <p className="text-gray-700 mb-6">
