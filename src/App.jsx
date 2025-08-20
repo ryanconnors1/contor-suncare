@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import Header from "./components/Header";
 import WhatIsContor from "./components/WhatIsContor";
+import WhatIsShield from "./components/WhatIsShield";
 import Features from "./components/Features";
 import WaitlistForm from "./components/WaitlistForm";
 import FAQ from "./components/FAQ";
@@ -56,6 +57,7 @@ export default function App() {
       <HeadlineImage />
       <WhatIsContor />
       <BottleShowcase />
+      <WhatIsShield />
       <Features />
       <WaitlistForm />
       <FAQ />
