@@ -6,9 +6,9 @@ export default function WhatIsContor() {
       <div className="mx-auto max-w-5xl px-6">
         {/* Big uppercase headline */}
         <h2 className="text-center uppercase font-sans font-medium tracking-tight leading-tight text-3xl sm:text-4xl md:text-5xl">
-          We believe suncare 
+          We believe suncare
           <br className="hidden sm:block" />
-          should smell great.
+          {" "}should smell great.
         </h2>
 
         {/* Centered serif body copy */}
