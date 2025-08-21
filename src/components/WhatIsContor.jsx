@@ -7,7 +7,7 @@ export default function WhatIsContor() {
         <div className="md:flex md:gap-10 md:items-stretch">
           {/* Side label column, vertically centered on desktop */}
           <div className="md:w-1/3 mb-6 md:mb-0 md:flex md:flex-col md:justify-center md:self-stretch">
-            <h2 className="text-right text-xl md:text-2xl font-semibold tracking-tight">
+            <h2 className="text-xl md:text-2xl font-semibold tracking-tight">
               Our Mission at Contor
             </h2>
             <div className="mt-3 md:mt-0 h-px bg-black/10 md:hidden" />
