@@ -11,42 +11,60 @@ export default function Footer() {
         {/* Socials Section */}
         <div className="flex flex-col items-center md:items-start space-y-2">
           <h4 className="text-lg font-semibold">Follow Us</h4>
-          <a
-            href="https://instagram.com/getcontorsuncare"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 hover:text-gray-400 transition"
-          >
-            <FaInstagram className="text-2xl" />
-            @getcontorsuncare
-          </a>
-          <a
-            href="https://tiktok.com/@getcontorsuncare"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 hover:text-gray-400 transition"
-          >
-            <FaTiktok className="text-2xl" />
-            @getcontorsuncare
-          </a>
-          <a
-            href="https://facebook.com/getcontorsuncare"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 hover:text-gray-400 transition"
-          >
-            <FaFacebook className="text-2xl" />
-            @getcontorsuncare
-          </a>
-          <a
-            href="https://twitter.com/contorsuncare"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 hover:text-gray-400 transition"
-          >
-            <FaTwitter className="text-2xl" />
-            @contorsuncare
-          </a>
+          <ul className="flex gap-4 md:gap-0 md:flex-col md:space-y-2">
+            <li>
+              <a
+                href="https://instagram.com/getcontorsuncare"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram: @getcontorsuncare"
+                title="Instagram: @getcontorsuncare"
+                className="flex items-center gap-2 hover:text-gray-400 transition"
+             >
+                <FaInstagram className="text-2xl" aria-hidden="true" />
+                <span className="hidden md:inline">@getcontorsuncare</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://tiktok.com/@getcontorsuncare"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="TikTok: @getcontorsuncare"
+                title="TikTok: @getcontorsuncare"
+                className="flex items-center gap-2 hover:text-gray-400 transition"
+              >
+                <FaTiktok className="text-2xl" aria-hidden="true" />
+                <span className="hidden md:inline">@getcontorsuncare</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://facebook.com/getcontorsuncare"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook: @getcontorsuncare"
+                title="Facebook: @getcontorsuncare"
+                className="flex items-center gap-2 hover:text-gray-400 transition"
+              >
+                <FaFacebook className="text-2xl" aria-hidden="true" />
+                <span className="hidden md:inline">@getcontorsuncare</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://twitter.com/contorsuncare"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Twitter: @contorsuncare"
+                title="Twitter: @contorsuncare"
+                className="flex items-center gap-2 hover:text-gray-400 transition"
+              >
+                <FaTwitter className="text-2xl" aria-hidden="true" />
+                <span className="hidden md:inline">@contorsuncare</span>
+              </a>
+            </li>
+          </ul>
         </div>
 
         {/* Contact Section */}

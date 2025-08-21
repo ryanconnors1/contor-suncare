@@ -2,32 +2,24 @@ import React from "react";
 
 export default function WhatIsContor() {
   return (
-    <section id="about-contor" className="w-full bg-white py-14">
-      <div className="mx-auto max-w-4xl px-6">
-        <div className="md:flex md:gap-10 md:items-stretch">
-          {/* Side label column, vertically centered on desktop */}
-          <div className="md:w-1/3 mb-6 md:mb-0 md:flex md:flex-col md:justify-center md:self-stretch">
-            <h2 className="text-xl md:text-2xl font-semibold tracking-tight">
-              Our Mission at Contor
-            </h2>
-            <div className="mt-3 md:mt-0 h-px bg-black/10 md:hidden" />
-          </div>
+    <section id="about-contor" className="w-full bg-white py-12 md:py-16">
+      <div className="mx-auto max-w-5xl px-6">
+        {/* Big uppercase headline */}
+        <h2 className="text-center uppercase font-sans font-medium tracking-tight leading-tight text-3xl sm:text-4xl md:text-5xl">
+          We believe suncare
+          <br className="hidden sm:block" />
+          should smell great.
+        </h2>
 
-          {/* Content column with vertical rule */}
-          <div className="md:w-2/3 border-l-4 border-black pl-6">
-            <div className="max-w-[62ch] text-left">
-              <p className="text-[17px] leading-relaxed text-gray-900">
-                We believe suncare should smell great. Why put something on your body if you don’t like the smell?
-              </p>
-              <p className="mt-3 text-[17px] leading-relaxed text-gray-900">
-                That’s why we built Contor - fragrance-forward SPF you’ll actually reach for, with protection you can trust.
-              </p>
-              <p className="mt-4 italic text-xl md:text-[20px] leading-snug text-gray-900 font-medium">
-                Smell great, stay protected. That's Contor.
-              </p>
-            </div>
-          </div>
+        {/* Centered serif body copy */}
+        <div className="mt-6 mx-auto max-w-2xl text-center font-sans text-base sm:text-lg leading-relaxed text-gray-900 space-y-4">
+          <p>Why put something on your body if you don’t like the smell?</p>
+          <p>That’s why we built Contor — fragrance-forward SPF you’ll actually reach for, with protection you can trust.</p>
         </div>
+
+        <p className="mt-6 sm:mt-8 text-center italic text-base sm:text-lg md:text-xl text-gray-900 font-medium">
+          Smell great, stay protected. That’s Contor.
+        </p>
       </div>
     </section>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import { FaSprayCan, FaShieldAlt, FaHandsWash } from "react-icons/fa";
+import { FaSprayCan, FaShieldAlt, FaWind } from "react-icons/fa";
 
 export default function Features() {
   return (
@@ -7,17 +7,17 @@ export default function Features() {
       <div className="bg-black text-white rounded-2xl shadow-md p-6">
         <FaSprayCan className="text-4xl mx-auto mb-4" />
         <h3 className="text-xl font-semibold mb-2">Smells Incredible</h3>
-        <p className="text-gray-300">Crafted with fine fragrance notes — no coconut, no chemicals.</p>
+        <p className="text-gray-300">Crafted with fine fragrance notes. Built for sensitive skin.</p>
       </div>
       <div className="bg-black text-white rounded-2xl shadow-md p-6">
         <FaShieldAlt className="text-4xl mx-auto mb-4" />
         <h3 className="text-xl font-semibold mb-2">SPF 50 Protection</h3>
-        <p className="text-gray-300">Dermatologist-recommended, broad-spectrum UV defense.</p>
+        <p className="text-gray-300">Broad‑spectrum SPF 50. Water & sweat resistant.</p>
       </div>
       <div className="bg-black text-white rounded-2xl shadow-md p-6">
-        <FaHandsWash className="text-4xl mx-auto mb-4" />
-        <h3 className="text-xl font-semibold mb-2">No Goop. Just Spray.</h3>
-        <p className="text-gray-300">No white cast. No sticky hands. Just clean coverage.</p>
+        <FaWind className="text-4xl mx-auto mb-4" />
+        <h3 className="text-xl font-semibold mb-2">Wide‑Spray Mist</h3>
+        <p className="text-gray-300">Wide, even mist for quick, effortless application.</p>
       </div>
     </section>
   );

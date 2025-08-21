@@ -7,27 +7,25 @@ export default function FAQ() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
         <div>
-          <h4 className="font-semibold mb-1">Is it greasy or sticky?</h4>
+          <h4 className="font-semibold mb-1">Does it work as well as regular sunscreen?</h4>
           <p className="text-gray-700 mb-6">
-            Nope. Contor sprays on light, dries fast, and leaves zero residue.
+            Yes! Your skin won’t notice any difference. Everyone else will!
           </p>
 
-          <h4 className="font-semibold mb-1">Does it leave a white cast?</h4>
+          <h4 className="font-semibold mb-1">How strong is the scent?</h4>
           <p className="text-gray-700">
-            Not at all. It’s fully transparent — no ghost effect, even on deeper skin tones.
+            Noticeable, but not overpowering — a subtle trail.
           </p>
         </div>
 
         <div>
-          <h4 className="font-semibold mb-1">Is it reef-safe and skin-safe?</h4>
+          <h4 className="font-semibold mb-1">When will I get my bottle?</h4>
           <p className="text-gray-700 mb-6">
-            Yes! We use reef-friendly ingredients and formulate with sensitive skin in mind.
+            Join the waitlist — we’ll email you as soon as your edition opens for early access.
           </p>
 
-          <h4 className="font-semibold mb-1">Does it work as well as regular sunscreen?</h4>
-          <p className="text-gray-700">
-          Yes! Your skin won’t notice any difference. Everyone else will!
-          </p>
+          <h4 className="font-semibold mb-1">Why would anyone ever use normal sunscreen again?</h4>
+          <p className="text-gray-700">Great question! 🤭</p>
         </div>
       </div>
     </section>
