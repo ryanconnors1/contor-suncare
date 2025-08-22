@@ -65,7 +65,7 @@ export default function WaitlistForm() {
   return (
     <section
       id="waitlist"
-      className="w-full px-6 py-28 bg-black text-white flex flex-col items-center justify-center border-t-2 border-white/20"
+      className="w-full px-6 bg-black text-white flex flex-col items-center justify-center border-t-2 border-white/20 min-h-screen min-h-[100svh] box-border"
     >
       <div className="max-w-2xl w-full">
         <div className="bg-white text-black rounded-3xl p-8 md:p-10 shadow-2xl ring-1 ring-black/10 mx-auto">
